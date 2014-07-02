@@ -1,0 +1,130 @@
+{
+	"methods": [{
+		"name": "getDistinctConstructiontypesByRwwutility",
+		"operationType": "hqlquery",
+		"parameters": [{
+			"name": "rwwutilityid",
+			"type": "java.lang.Integer"
+		}, {
+			"name": "zipcode",
+			"type": "java.lang.String"
+		}],
+		"returnType": "[com.rebateprograms.data.output.GetDistinctConstructiontypesByRwwutilityRtnType]"
+	}, {
+		"name": "getDistinctNewequipmentByRwwutility",
+		"operationType": "hqlquery",
+		"parameters": [{
+			"name": "rwwutilityid",
+			"type": "java.lang.Integer"
+		}, {
+			"name": "zipcode",
+			"type": "java.lang.String"
+		}],
+		"returnType": "[com.rebateprograms.data.output.GetDistinctNewequipmentByRwwutilityRtnType]"
+	}, {
+		"name": "getHP",
+		"operationType": "hqlquery",
+		"parameters": null,
+		"returnType": "[com.rebateprograms.data.output.GetHPRtnType]"
+	}, {
+		"name": "getNewequipmentByRwwutility",
+		"operationType": "hqlquery",
+		"parameters": [{
+			"name": "rwwutilityid",
+			"type": "java.lang.Integer"
+		}, {
+			"name": "zipcode",
+			"type": "java.lang.String"
+		}],
+		"returnType": "[com.rebateprograms.data.output.GetNewequipmentByRwwutilityRtnType]"
+	}, {
+		"name": "getNewequipmentByTechnology",
+		"operationType": "hqlquery",
+		"parameters": [{
+			"name": "technologyid",
+			"type": "java.lang.Integer"
+		}],
+		"returnType": "[com.rebateprograms.data.output.GetNewequipmentByTechnologyRtnType]"
+	}, {
+		"name": "getPayoutMinMaxFromRwwutility",
+		"operationType": "hqlquery",
+		"parameters": [{
+			"name": "rwwutilityid",
+			"type": "java.lang.Integer"
+		}, {
+			"name": "zipcode",
+			"type": "java.lang.String"
+		}],
+		"returnType": "[com.rebateprograms.data.output.GetPayoutMinMaxFromRwwutilityRtnType]"
+	}, {
+		"name": "getQty",
+		"operationType": "hqlquery",
+		"parameters": null,
+		"returnType": "[com.rebateprograms.data.output.GetQtyRtnType]"
+	}, {
+		"name": "getRWWUtillityPayoutsByZipCodeAndEnergytype",
+		"operationType": "hqlquery",
+		"parameters": [{
+			"name": "zipcode",
+			"type": "java.lang.String"
+		}],
+		"returnType": "[com.rebateprograms.data.output.GetRWWUtillityPayoutsByZipCodeAndEnergytypeRtnType]"
+	}, {
+		"name": "getRebateEstimate",
+		"operationType": "hqlquery",
+		"parameters": [{
+			"name": "rwwutilityid",
+			"type": "java.lang.Integer"
+		}, {
+			"name": "qty",
+			"type": "java.lang.Integer"
+		}, {
+			"name": "hp",
+			"type": "java.lang.Float"
+		}, {
+			"name": "constructiontypeid",
+			"type": "java.lang.Integer"
+		}, {
+			"name": "newequipmentid",
+			"type": "java.lang.Integer"
+		}, {
+			"name": "zipcode",
+			"type": "java.lang.String"
+		}],
+		"returnType": "[com.rebateprograms.data.output.GetRebateEstimateRtnType]"
+	}, {
+		"name": "getRebateProgramCountByStateAndTechCat",
+		"operationType": "hqlquery",
+		"parameters": [{
+			"name": "stateid",
+			"type": "java.lang.Integer"
+		}],
+		"returnType": "[com.rebateprograms.data.output.GetRebateProgramCountByStateAndTechCatRtnType]"
+	}, {
+		"name": "getRebateprogramByRwwutility",
+		"operationType": "hqlquery",
+		"parameters": [{
+			"name": "rwwutilityid",
+			"type": "java.lang.Integer"
+		}],
+		"returnType": "[com.rebateprograms.data.output.GetRebateprogramByRwwutilityRtnType]"
+	}, {
+		"name": "getRebatorTypesById",
+		"operationType": "hqlquery",
+		"parameters": [{
+			"name": "id",
+			"type": "java.lang.Integer"
+		}],
+		"returnType": "com.rebateprograms.data.RebatorTypes"
+	}, {
+		"name": "getRwwUtilitiesByZipcodeAndEnergytype",
+		"operationType": "hqlquery",
+		"parameters": [{
+			"name": "zipcode",
+			"type": "java.lang.String"
+		}],
+		"returnType": "[com.rebateprograms.data.output.GetRwwUtilitiesByZipcodeAndEnergytypeRtnType]"
+	}],
+	"serviceType": "JSON-RPC",
+	"serviceURL": "RebatePrograms.json"
+}

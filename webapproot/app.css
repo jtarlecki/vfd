@@ -1,0 +1,36 @@
+html.WMApp body .rwwBlue {
+color: #ffffff;
+background-color: #2f5fac;
+}
+
+html.WMApp body .rwwGreen {
+color: #ffffff;
+background-color: #45b449;
+}
+
+
+.wm_green .dialogtitlebar {
+background-color: #2f5fac;
+background-image: url(images/repeatx/brightThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+
+.wm_green .dialogfooter, .wm_green .wmpagedialog-controlspanel {
+font-family: Verdana;
+font-size: 8pt;
+color: #ffffff;
+font-weight: bold;
+background-color: #2f5fac;
+background-position: top left;
+background-repeat: repeat-x;
+-moz-border-radius-bottomleft: 2px;
+-moz-border-radius-bottomright: 2px;
+-webkit-border-bottom-left-radius: 2px;
+-webkit-border-bottom-right-radius: 2px;
+border-radius-bottomleft: 2px;
+border-radius-bottomright: 2px;
+}
+
+
+
