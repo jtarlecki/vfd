@@ -27,14 +27,14 @@ The mobile web app has four (4) options when it initializes:
 
 All of which provide increasing levels of information to the user.  The idea was to have a free service to entice the user, and a pay service for access to some of the more granular aspects of the incentive database.
 
-### Rebate**Overview**
+### RebateOverview
 This feature gives a high-level overview of rebate eligible technology categories by state.  After selecting Rebate**Overview** in the home screen, navigate to the state you are interested in (or use the search box), and the final screen will display a dollar sign ($) for each technology category that are rebate-eligible.
 
-### Rebate**Aware**
+### RebateAware
 
 The aim of this section is to give the user a range of potential incentives for the installation of a VFD for a particular geography.  The app first asks for the user's **zipcode** in the first screen, whereby the app will deliver a series of choices via AJAX request of the relevant **electric utilities** that service that **zipcode**.  Utilities that offer rebates will be marked with a *check* *mark*, while utilities that do **not** offer energy efficiency rebate will be marked with an '*X*'.  If the utility has a check mark, then the user can continue to the next screen which gives a range of potential incentives for installation of a VFD, independent of the VFD's size or application.  This helps the user generally *quantify* this geography's potential for VFD installations.
 
-### Rebate**Advantage**
+### RebateAdvantage
 Selecting this module is the most specific way the user can gain access to *exact* incentive information for their upcoming project.  Like the previous section, the user will have to input a **zipcode** and choose the appropriate **electric utility**.  In the next screen, the user will input to following information on the VFD's they intend to install: 
 
 1. Quantity
@@ -45,7 +45,7 @@ Selecting this module is the most specific way the user can gain access to *exac
 Upon successful completion of the short form, the user will then gain a listing of potential rebate programs that fit their project's criteria on the following screen, with specific dollar amount for the rebate.  In addition, the app shows the formula by which the program uses to calculate the rebate, including some fine print about the caps for the program and general notes relevant to this specific rebate.  Furthermore, there are some outbound links to the rebate program website and the rebate application.
 
 
-### Rebate**Acquire** 
+### RebateAcquire
 
 [Pending] The aim of this section is to collect specific project information from a customer to help facilitate the filing and capturing of rebates for their project. Typically, this service pertains to a custom energy efficiency project that may need energy savings calculations of energy modeling to quantify the potential savings.
 
